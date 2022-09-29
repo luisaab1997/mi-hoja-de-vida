@@ -1,0 +1,440 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,700&family=Roboto+Slab:wght@200&family=Roboto:ital,wght@1,300&family=Source+Sans+Pro:ital,wght@0,300;0,400;1,200;1,400&display=swap');
+
+body {
+  overflow-x: hidden;
+  background-color: rgb(22, 0, 121);
+  position: relative;
+}
+
+/* ----------------- MENU ----------- */
+
+.menu-principal  {
+  background-color: #7B7889;
+  font-size: 1.5em;
+  position: sticky;
+  top: 0;
+}
+
+.menu-index {
+  height: 2.9em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  /* padding: 1em; */
+}
+
+.menu-items {
+  height: 2.9em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1em;
+  }
+
+.menu-items li {
+  list-style-type: none;
+  }
+
+ .espacio-menu  li a {
+  padding-right: 15px;
+ }
+
+.alitas {
+  height: 3em;
+  width: 3em;
+}
+
+.menu-items li a {
+  text-decoration: none;
+  color: black;
+} 
+
+/* -------fotos de menu INDEX ------- */
+
+.imagenmediana {
+  
+  width: 20em;
+  padding: 0.5em;
+  border: solid 0.25em #ff0303;
+  border-radius: 5em;
+}
+
+.imagenmediana:hover {
+    transform: scale(1.5); 
+}
+
+.banner-imagen{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media only screen and (max-width: 992px){
+    .banner-imagen{
+        flex-direction: column;
+    }
+}
+
+/* ------------------ INDEX---------- */
+
+/* article {
+  display: flex;
+  justify-content: space-evenly;
+} */
+
+.contenido-index{
+  padding: 1em;
+}
+
+.bienvenido {
+  display: flex;
+  justify-content: center;
+  font-size: 4em;
+  color: #f1f1f1;
+  }
+
+.contenido-index article h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 5em;
+  color: #f1f1f1;
+  padding: 0.25em;
+}
+
+.contenido-index article p {
+  display: flex;
+  justify-content: center;
+  font-size: 4em;
+  color: #f1f1f1;
+  padding: 0.25em;
+}
+ 
+.contenido-index article img {
+  display: flex;
+  margin: auto;
+  width: 25%;  
+  padding: 0.25em;
+  border: solid 0.25em #ffffff;
+  border-radius: 1em;
+}
+
+/* ---------------footer------------- */
+
+footer {
+  height: 8em;
+  background-color: #7B7889;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.contenedor_contacto {
+  padding: 1em;
+  text-align: center;
+  color: #f1f1f1;
+  font-size: 1.2em;
+}
+
+.contenedor_redes {
+  display: flex;
+  flex-direction: row;
+  font-size: 3em;
+
+}
+
+.whatsapp {
+  background-color: #1eff00;
+  color: #f1f1f1;
+  border-radius: 5%;
+  width: 1.2em;  
+  height: 1.2em;
+  padding-top: 0.08em;
+  padding-left: 0.21em;
+  position: fixed;
+  bottom: 0.1em;
+  right: 4em;
+  border: solid 0em ;
+  border-radius: 1em;
+
+}
+
+.facebook {
+  background-color: blue;
+  color: #fcfcfc;
+  border-radius: 5%;
+  width: 1.2em;  
+  height: 1.2em;
+  padding-top: 0.13em;
+  padding-left: 0.27em;
+  position: fixed;
+  bottom: 0.1em;
+  right: 2.7em;
+  border: solid 0em ;
+  border-radius: 1em;
+}
+
+.twitter {
+  background-color: rgb(0, 162, 255);
+  color: #fcfcfc;
+  border-radius: 5%;
+  width: 1.2em;  
+  height: 1.2em;
+  padding-top: 0.1em;
+  padding-left: 0.15em;
+  position: fixed;
+  bottom: 0.1em;
+  right: 1.4em;
+  border: solid 0em ;
+  border-radius: 1em;
+}
+
+.instagram {
+  background-color: rgb(206, 6, 6);
+  color: #fcfcfc;
+  border-radius: 5%;
+  width: 1.2em;  
+  height: 1.2em;
+  padding-top: 0.1em;
+  padding-left: 0.15em;
+  position: fixed;
+  bottom: 0.1em;
+  right: 0.1em;
+}
+
+/*---------BOTON ACERCA DE MI ------ */
+
+.dropbtn {
+  background-color: #8b0707;
+  color: white;
+  padding: 16px;
+  font-size: 1em;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 10em;
+  box-shadow: 0px 8px 16px 0px rgba(252, 11, 199, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: rgb(0, 174, 255);}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #0004ff;}
+
+  /*------------INGENIERO----------- */
+
+  .contenido-ing h1 {
+    font-size: 5em;
+    display: flex;
+    justify-content: center;    
+    margin: 0.2em;
+    color: #fcfcfc;
+    }
+
+  .contenido-ing p {
+    display: flex;
+    text-align: justify;
+    padding: 1em;   
+    color: #fcfcfc;
+     }
+
+  .luis_ing-petroleos {
+    float: left;
+    width: 20em;
+    padding: 1em;
+    }
+      
+  .video-ing iframe {
+    display: flex;
+    margin: auto;
+    padding: 1em;
+    height: 25em;
+    width: 50em;
+    }
+
+  /*------------FOTOGRAFO----------- */
+
+  .menu-fotografo  {
+    width: 23em;
+    height: 10em;
+    background-color: #af2121;
+    padding: 2em;
+    border: solid 0.25em #000000;
+    color: #f1f1f1;
+    font-size: 1em;
+/*     border-radius: 0em; */
+    margin-top: 2em;
+    margin: 1em;
+  }
+
+  .contenedor_fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .foto_uno,
+  .foto_dos,
+  .foto_tres,
+  .foto_cuatro,
+  .foto_cinco,
+  .foto_seis,
+  .foto_siete {
+    width: 33.33%;
+  }
+
+  @media only screen and (max-width: 767px){
+    .contenedor_fotos{
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .foto_uno,
+    .foto_dos,
+    .foto_tres,
+    .foto_cuatro,
+    .foto_cinco,
+    .foto_seis,
+    .foto_siete {
+      width: 100%;
+    }
+}
+
+.tex_fotograf {
+  color: #ffffff;
+  text-align: justify;
+  padding: 2em;
+}
+
+/*------------PROGRAMADOR----------- */
+
+.programador-tex section h1 {
+  font-size: 5em;
+  display: flex;
+  justify-content: center;    
+  margin: 0.2em;
+  color: #fcfcfc;
+  }
+
+.programador-tex section p {
+  display: flex;
+  text-align: justify;
+  color: #fcfcfc;
+  padding: 1em;
+}
+
+.programador-tex section img {
+  display: flex;
+  float: left;
+  margin-top: 2em;
+  margin-left: 1em;
+}    
+
+   
+
+/*------------CONTACTANOS----------- */
+
+.centroo {
+  display: flex;
+  flex-direction: column;
+ }  
+
+.color-titulo {
+  margin-top: 0.2em;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  font-size: 6em;
+  color: #f1f1f1;
+}
+
+.contactenos_info {
+  width: 30em;
+  display: flex;
+  margin: auto;
+  background-color: #7B7889;
+  padding-top: 1em;
+  padding-left: 4em;
+  border: solid 0.25em #ff0303;
+  border-radius: 1em;
+}
+
+.centro-con {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 1em;
+}
+
+.sino {
+  padding: 0.5em;
+  margin: auto;
+}
+
+.cometario-con {
+  display: flex;
+  flex-direction: column;
+}
+
+.boton-enviar {
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align items: center;
+  }
+
+#nombre {
+  width: 25em;
+  height: 2.5em;
+}
+
+#numero {
+  width: 25em;
+  height: 2.5em;
+}
+#correo {
+  width: 25em;
+  height: 2.5em;
+}
+
+#comentario {
+  width: 25em;
+  height: 14em;
+}
+
+#enviar {
+  border-radius: 1em;
+  height: 2em;
+  width: 8em;
+  background-color: #ff0303;
+  color: #fcfcfc;
+  font-size: 2em;
+}

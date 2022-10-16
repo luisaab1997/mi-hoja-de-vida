@@ -5,13 +5,83 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css'>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="../css/estilo.css">
     <title>Fotografo</title>
 </head>
 <body>
     <!-------------------- menu --------------->
     <header> 
-        <nav class="menu-pages">
+        <nav class="navbar navbar-expand-lg menu-index">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html">
+                    <img src="../archivos/pngwing.com.png" alt="alitas" loading="lazy" width="50" height="50" class="alitas">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon">
+                    </span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item ">
+                            <a class="nav-link active text-white" aria-current="page" href="../index.html">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="contactenos.html">
+                                Contactenos
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Acerca de mi
+                            </a>
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a class="dropdown-item " href="ingdepetroleo.html">
+                                    Ingeniero de petroleo
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="fotografo.html">
+                                    Fotografo
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="programador.html">
+                                    Programador
+                                </a>
+                            </li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    Luis arevalo
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="../archivos/Аревало Бельо Луис 28-04-202.pdf">
+                            Descargar mi CV
+                        </a>
+                    </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success text-white" type="submit">
+                            Search
+                        </button>
+                    </form> 
+                </div>
+            </div>
+        </nav>
+<!------------------------------------------------------ MENU CON SCC ----------------------------------------------->
+        <!-- <nav class="menu-pages">
             <a href="../index.html">
                 <img src="../archivos/pngwing.com.png" alt="alitas" loading="lazy" width="50" height="50" class="alitas">
             </a>
@@ -40,7 +110,7 @@
                     </li>
                 </ul>
             </div>
-        </nav>
+        </nav> -->
     </header>
     <!----------------- Contenido ------------->
     <nav>
@@ -68,25 +138,25 @@
 
     <main class="contenedor_fotos">
         <div class="foto_uno">
-            <img src="../archivos/5.jpg" alt="Fiesta para niños" class="tomaño-foto">
+            <img src="../archivos/5.jpg" alt="Fiesta para niños" loading="lazy"  class="tomaño-foto">
         </div>
         <div class="foto_dos">
-          <img src="../archivos/2.jpg" alt="Fotos en la naturaleza" class="tomaño-foto">
+          <img src="../archivos/2.jpg" alt="Fotos en la naturaleza" loading="lazy"  class="tomaño-foto">
         </div>
         <div class="foto_tres">
-            <img src="../archivos/3.jpg" alt="Fotos para niños" class="tomaño-foto">
+            <img src="../archivos/3.jpg" alt="Fotos para niños" loading="lazy"  class="tomaño-foto">
         </div>
         <div class="foto_cuatro">
-            <img src="../archivos/4.jpg" alt="Fotos casuales" class="tomaño-foto">
+            <img src="../archivos/4.jpg" alt="Fotos casuales" loading="lazy"  class="tomaño-foto">
         </div>
         <div class="foto_cinco">
-            <img src="../archivos/1.jpg" alt="" class="tomaño-foto">
+            <img src="../archivos/1.jpg" alt="" loading="lazy" class="tomaño-foto">
         </div>
         <div class="foto_seis">
-            <img src="../archivos/6.jpg" alt="" class="tomaño-foto">
+            <img src="../archivos/6.jpg" alt="" loading="lazy"  class="tomaño-foto">
         </div>
         <div class="foto_siete">
-            <img src="../archivos/7.jpg" alt="" class="tomaño-foto">
+            <img src="../archivos/7.jpg" alt="" loading="lazy" class="tomaño-foto">
         </div>
         <div class="tex_fotograf">
             <p>

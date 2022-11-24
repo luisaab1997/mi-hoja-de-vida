@@ -367,12 +367,14 @@ footer {
     border: solid 0.25em #ff0303;
     border-radius: 5em;
     width: 90%;
+    margin: auto;
   }
   
   .tamaño-foto-13{
     border: solid 0.25em #ff0303;
     border-radius: 5em;
     width: 90%;
+    margin: auto;
   }
 }
 
@@ -612,31 +614,43 @@ footer {
 
   /*------------FOTOGRAFO----------- */
 
-  .menu-fotografo  {
-    width: 23em;
-    height: 10em;
-    background-color: #af2121;
-    padding: 2em;
-    border: solid 0.25em #000000;
-    color: #f1f1f1;
-    font-size: 1em;
-/*     border-radius: 0em; */
-    margin-top: 2em;
-    margin: 1em;
-  }
+.menu-fotografo  {
+  width: 30em;
+  height: 11em;
+  background-color: #af2121;
+  padding: 1em;
+  border: solid 0.25em #000000;
+  color: #f1f1f1;
+  margin: 1em;
+}
 
-  .contenedor_fotos{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+.contenedor_fotos{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 
-  }
-
-  .tomaño-foto{
+.tomaño-foto{
   width: 90%;
   padding: 0.5em;
   border-radius: 1em;
+}
+
+.foto_uno,
+.foto_dos,
+.foto_tres,
+.foto_cuatro,
+.foto_cinco,
+.foto_seis,
+.foto_siete {
+  width: 33.33%;
+}
+
+@media only screen and (max-width: 767px){
+  .contenedor_fotos{
+    flex-direction: column;
+    align-items: center;
   }
 
   .foto_uno,
@@ -646,24 +660,8 @@ footer {
   .foto_cinco,
   .foto_seis,
   .foto_siete {
-    width: 33.33%;
+    width: 100%;
   }
-
-  @media only screen and (max-width: 767px){
-    .contenedor_fotos{
-      flex-direction: column;
-      align-items: center;
-    }
-
-    .foto_uno,
-    .foto_dos,
-    .foto_tres,
-    .foto_cuatro,
-    .foto_cinco,
-    .foto_seis,
-    .foto_siete {
-      width: 100%;
-    }
 }
 
 .tex_fotograf {

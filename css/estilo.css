@@ -340,15 +340,13 @@ footer {
     display: flex;
     grid-row: 2;
     margin: auto;
-    width: 100%;
   }
   
   .grit-foto-2{
     align-items: center;
     display: flex;
     grid-row: 3;
-    margin: auto;
-    width: 100%;
+    margin: auto; 
   }
   
   .grit-foto-3{
@@ -356,7 +354,6 @@ footer {
     display: flex;
     grid-row: 4;
     margin: auto;
-    width: 100%;
   }
 
   .foto-luis{
@@ -366,15 +363,13 @@ footer {
   .tamaño-foto{
     border: solid 0.25em #ff0303;
     border-radius: 5em;
-    width: 90%;
-    margin: auto;
+    width: 100%;
   }
   
   .tamaño-foto-13{
     border: solid 0.25em #ff0303;
     border-radius: 5em;
-    width: 90%;
-    margin: auto;
+    width: 100%;
   }
 }
 
@@ -632,7 +627,7 @@ footer {
 }
 
 .tomaño-foto{
-  width: 90%;
+  width: 100%;
   padding: 0.5em;
   border-radius: 1em;
 }
@@ -659,10 +654,10 @@ footer {
     padding: 1em;
     border: solid 0.25em #000000;
     color: #f1f1f1;
-    margin: 1em;
   }
 
   .contenedor_fotos{
+    display: flex;
     flex-direction: column;
     align-items: center;
   }

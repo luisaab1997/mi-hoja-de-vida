@@ -678,7 +678,7 @@ footer {
     .video-inge{
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 80%;
     grid-column: 1;
     grid-row: 4;
     }
@@ -738,13 +738,13 @@ footer {
   }
   
   .main-grid{
-  background-color: #86b4e2;
+  background-color: #000000d7;
   grid-column: 1;
   grid-row: 2;
   }
   
   .aside-grid{
-  background-color: #d7d1f0;
+  background-color: #000000d7;
   grid-column: 1;
   grid-row: 3;
   }

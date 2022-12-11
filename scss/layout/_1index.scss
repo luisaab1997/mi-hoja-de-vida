@@ -1,0 +1,94 @@
+/*---------------------------- INDEX CONTENIDO   CSS ----------------------------*/
+.grid-index-1 {
+    background-color: $background-index;
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    grid-template-rows: 10em 30em;
+}
+
+.grit-bienvenido {
+    grid-column-start: 2;
+    margin: auto;
+    h1 {
+        color: $color-tex-index;
+        display: flex;
+        justify-content: center;        
+    }
+}
+
+main div {
+    width: 28em;
+    a img {
+        width: 24em;
+    }
+    div h3 {
+        color: $color-tex-index;
+    }
+    div p {
+        color: $color-tex-index;
+    }
+}
+
+.transform:hover {
+    transform: scale(1.1);
+    transition: all ease-in-out 0.3s; 
+}
+
+.grit-foto-1 {
+    align-items: center;
+    background-color: $background-index-cards;
+    display: flex;
+    grid-column-start: 1;
+    grid-row: 2;
+    margin: auto;
+}
+
+.grit-foto-2 {
+    align-items: center;
+    background-color: $background-index-cards;
+    display: flex;
+    grid-column-start: 2;
+    grid-row: 2;
+    margin: auto;
+}
+  
+.grit-foto-3 {
+    align-items: center;
+    background-color: $background-index-cards;
+    display: flex;
+    grid-column-start: 3;
+    grid-row: 2;
+    margin: auto;
+}
+
+.content-index-2 {
+    background-color: $background-index2;
+    article{
+        h3{
+            color: $color-tex-index;
+            text-align: center;
+            font-size: 6em;
+        }
+        p {
+            color: $color-tex-index;
+            text-align: center;
+            font-size: 4em;
+        }
+        .mb-3{
+            width: 70%;
+        }
+        .col-md-8 {
+            font-size: 70%;
+        }
+        div {
+            background-color: $background-index-cards;
+            margin: auto;
+            .col-md-4 img {
+                width: 100%;
+                
+            }
+        }
+        
+    }
+}
+  

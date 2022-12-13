@@ -1,1 +1,25 @@
 /*---------------------------- MENU              CSS ----------------------------*/
+.menu-index {
+    background-color: $background-menu;
+    .alitas {
+        width: 4em;
+        margin-left: 1em;
+    }
+    
+    .color-menu-trans {
+        color: $color-menu;
+        font-family: $fuentes-principal;
+        font-size: 1.4em;
+    }
+}
+
+.alitas:hover {
+    transform: scale(1.2);
+    transition: all ease-in-out 0.3s; 
+}
+
+.color-menu-trans:hover {
+    transform: scale(1.08);
+    transition: all ease-in-out 0.3s; 
+    color: rgb(255, 255, 255);
+}

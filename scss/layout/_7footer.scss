@@ -1,1 +1,17 @@
 /*---------------------------- FOOTER            CSS ----------------------------*/
+footer {
+    background-color: $background-footer;
+}
+.container {
+    background-color: $background-footer;
+    color: $color-footer;
+    font-family: $fuentes-principal;
+    font-size: 1.3em;
+}
+
+.redes {
+    .whatsapp, .facebook, .twitter, .instagram, .github {
+        width: 2em;
+        font-size: 2em;
+    }
+}

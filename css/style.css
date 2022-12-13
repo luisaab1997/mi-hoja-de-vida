@@ -5,8 +5,10 @@
   box-sizing: border-box; }
 
 /*---------------------------- INDEX CONTENIDO   CSS ----------------------------*/
+body {
+  background-color: #000000d7; }
+
 .grid-index-1 {
-  background-color: #000000d7;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 10em 30em; }
@@ -56,32 +58,66 @@ main div {
   grid-row: 2;
   margin: auto; }
 
-.content-index-2 {
-  background-color: #000000d7; }
-  .content-index-2 article h3 {
-    color: #ffffffd7;
-    text-align: center;
-    font-size: 6em; }
-  .content-index-2 article p {
-    color: #ffffffd7;
-    text-align: center;
-    font-size: 4em; }
-  .content-index-2 article .mb-3 {
-    width: 70%; }
-  .content-index-2 article .col-md-8 {
-    font-size: 70%; }
-  .content-index-2 article div {
-    background-color: #00000096;
-    margin: auto; }
-    .content-index-2 article div .col-md-4 img {
-      width: 100%; }
+.content-index-2 article h3 {
+  color: #ffffffd7;
+  text-align: center;
+  font-size: 6em; }
+
+.content-index-2 article p {
+  color: #ffffffd7;
+  text-align: center;
+  font-size: 4em; }
+
+.content-index-2 article .mb-3 {
+  width: 70%; }
+
+.content-index-2 article .col-md-8 {
+  font-size: 70%; }
+
+.content-index-2 article div {
+  background-color: #00000096;
+  margin: auto; }
+  .content-index-2 article div .col-md-4 img {
+    width: 100%; }
 
 /*---------------------------- FOTOGRAFO         CSS ----------------------------*/
 /*---------------------------- INGENIERO         CSS ----------------------------*/
 /*---------------------------- PROGRAMADOR       CSS ----------------------------*/
 /*---------------------------- CONTACTANOS       CSS ----------------------------*/
 /*---------------------------- MENU              CSS ----------------------------*/
+.menu-index {
+  background-color: #550b0b; }
+  .menu-index .alitas {
+    width: 4em;
+    margin-left: 1em; }
+  .menu-index .color-menu-trans {
+    color: #ffffffd7;
+    font-family: "Nerko One", cursive;
+    font-size: 1.4em; }
+
+.alitas:hover {
+  transform: scale(1.2);
+  transition: all ease-in-out 0.3s; }
+
+.color-menu-trans:hover {
+  transform: scale(1.08);
+  transition: all ease-in-out 0.3s;
+  color: white; }
+
 /*---------------------------- FOOTER            CSS ----------------------------*/
+footer {
+  background-color: #550b0b; }
+
+.container {
+  background-color: #550b0b;
+  color: #ffffffd7;
+  font-family: "Nerko One", cursive;
+  font-size: 1.3em; }
+
+.redes .whatsapp, .redes .facebook, .redes .twitter, .redes .instagram, .redes .github {
+  width: 2em;
+  font-size: 2em; }
+
 /*---------------------------- INDEX CONTENIDO MEDIA ----------------------------*/
 /*---------------------------- INGENIERO       MEDIA ----------------------------*/
 /*---------------------------- FOTOGRAFO       MEDIA ----------------------------*/

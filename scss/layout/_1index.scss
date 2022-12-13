@@ -1,6 +1,8 @@
 /*---------------------------- INDEX CONTENIDO   CSS ----------------------------*/
-.grid-index-1 {
+body {
     background-color: $background-index;
+}
+.grid-index-1 {
     display: grid;
     grid-template-columns:  1fr 1fr 1fr;
     grid-template-rows: 10em 30em;
@@ -62,7 +64,6 @@ main div {
 }
 
 .content-index-2 {
-    background-color: $background-index2;
     article{
         h3{
             color: $color-tex-index;

@@ -6,12 +6,17 @@ footer {
     background-color: $background-footer;
     color: $color-footer;
     font-family: $fuentes-secundaria;
-    font-size: 1.3em;
+    font-size: 1em;
+    padding-top: 2em;
+    .centro{
+        font-size: initial;
+        margin: auto;
+    }
 }
 
 .redes {
     .whatsapp, .facebook, .twitter, .instagram, .github {
-        width: 2em;
-        font-size: 2em;
+        width: 1em;
+        font-size: 2.5em;
     }
 }

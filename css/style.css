@@ -11,77 +11,203 @@ body {
 .grid-index-1 {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 10em 30em; }
+  grid-template-rows: 10em 30em;
+  color: #ffffffd7; }
+  .grid-index-1 .card-img img {
+    width: 22em; }
 
-.grit-bienvenido {
+.grid-bienvenido {
   grid-column-start: 2;
   margin: auto; }
-  .grit-bienvenido h1 {
-    color: #ffffffd7;
+  .grid-bienvenido h1 {
     display: flex;
     justify-content: center; }
-
-main div {
-  width: 28em; }
-  main div a img {
-    width: 24em; }
-  main div div h3 {
-    color: #ffffffd7; }
-  main div div p {
-    color: #ffffffd7; }
 
 .transform:hover {
   transform: scale(1.1);
   transition: all ease-in-out 0.3s; }
 
-.grit-foto-1 {
-  align-items: center;
+.grid-foto-1 {
   background-color: #00000096;
-  display: flex;
   grid-column-start: 1;
   grid-row: 2;
   margin: auto; }
 
-.grit-foto-2 {
-  align-items: center;
+.grid-foto-2 {
   background-color: #00000096;
-  display: flex;
   grid-column-start: 2;
   grid-row: 2;
   margin: auto; }
 
-.grit-foto-3 {
-  align-items: center;
+.grid-foto-3 {
   background-color: #00000096;
-  display: flex;
   grid-column-start: 3;
   grid-row: 2;
   margin: auto; }
 
-.content-index-2 article h3 {
-  color: #ffffffd7;
-  text-align: center;
-  font-size: 6em; }
-
-.content-index-2 article p {
-  color: #ffffffd7;
-  text-align: center;
-  font-size: 4em; }
-
-.content-index-2 article .mb-3 {
-  width: 70%; }
-
-.content-index-2 article .col-md-8 {
-  font-size: 70%; }
-
-.content-index-2 article div {
-  background-color: #00000096;
-  margin: auto; }
-  .content-index-2 article div .col-md-4 img {
-    width: 100%; }
+.content-index-2 article {
+  padding-bottom: 3em; }
+  .content-index-2 article .rounded-start {
+    margin: 0.5em; }
+  .content-index-2 article h3 {
+    color: #ffffffd7;
+    text-align: center;
+    font-size: 6em; }
+  .content-index-2 article p {
+    color: #ffffffd7;
+    text-align: center;
+    font-size: 4em; }
+  .content-index-2 article .mb-3 {
+    width: 70%; }
+  .content-index-2 article .col-md-8 {
+    font-size: 70%; }
+  .content-index-2 article div {
+    background-color: #00000096;
+    margin: auto; }
+    .content-index-2 article div .col-md-4 img {
+      width: 100%; }
 
 /*---------------------------- FOTOGRAFO         CSS ----------------------------*/
+.menu-fotografo {
+  color: white; }
+  .menu-fotografo .card-color {
+    background-color: #550b0b;
+    border-color: white;
+    margin: 2em; }
+
+.margenes {
+  margin: 3em; }
+
+.contenedor_fotos-grid {
+  display: grid;
+  grid-template-columns: 1fr  1fr 1fr;
+  grid-template-rows: 18em 56em 56em 56em 56em; }
+  .contenedor_fotos-grid .posicion {
+    font-size: 1.8em;
+    text-align: justify;
+    margin: 2em;
+    font-family: "Nerko One", cursive; }
+    .contenedor_fotos-grid .posicion h3 {
+      font-size: 2em; }
+
+.menu-fotografo {
+  grid-column: 1/3;
+  grid-row: 1; }
+
+.carrusel-fotos1 {
+  margin: 1em;
+  grid-column: 1;
+  grid-row: 2; }
+
+.carrusel-fotos2 {
+  margin: 1em;
+  grid-column: 3;
+  grid-row: 3; }
+
+.carrusel-fotos3 {
+  margin: 1em;
+  grid-column: 1;
+  grid-row: 4; }
+
+.carrusel-fotos4 {
+  margin: 1em;
+  grid-column: 3;
+  grid-row: 5; }
+
+.texto-foto-1 {
+  color: #ffffffd7;
+  grid-column: 2/4;
+  grid-row: 2; }
+
+.texto-foto-2 {
+  color: #ffffffd7;
+  grid-column: 1/3;
+  grid-row: 3; }
+
+.texto-foto-3 {
+  color: #ffffffd7;
+  grid-column: 2/4;
+  grid-row: 4; }
+
+.texto-foto-4 {
+  color: #ffffffd7;
+  grid-column: 1/3;
+  grid-row: 5; }
+
+.card-fotografia-grid {
+  grid-column: 1/4;
+  grid-row: 6; }
+
 /*---------------------------- INGENIERO         CSS ----------------------------*/
+.main-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 0.2fr  1fr 1fr  0.2fr 1fr; }
+
+.titulo-inge {
+  color: #ffffffd7;
+  margin: auto;
+  font-family: "Nerko One", cursive;
+  grid-column: 1/5;
+  grid-row: 1; }
+  .titulo-inge h3 {
+    font-size: 4em; }
+
+.foto-una-inge {
+  grid-column: 1/2;
+  grid-row: 2;
+  margin: 1.5em; }
+  .foto-una-inge .foto-una-ing {
+    width: 80%; }
+
+.texto-inge {
+  color: #ffffffd7;
+  margin: 1em;
+  text-align: justify;
+  font-size: 1.5em;
+  font-family: "Nerko One", cursive;
+  grid-column: 2/5;
+  grid-row: 2; }
+
+.video-inge {
+  margin: auto;
+  grid-column: 3/5;
+  grid-row: 3; }
+
+.texto-inge-dos {
+  color: #ffffffd7;
+  margin: 1em;
+  text-align: justify;
+  font-size: 1.5em;
+  font-family: "Nerko One", cursive;
+  grid-column: 1/3;
+  grid-row: 3; }
+
+.titulo-inge-dos {
+  color: #ffffffd7;
+  margin: auto;
+  font-family: "Nerko One", cursive;
+  grid-column: 1/5;
+  grid-row: 4; }
+  .titulo-inge-dos h3 {
+    font-size: 4em; }
+
+.texto-inge-tres {
+  color: #ffffffd7;
+  margin: 1em;
+  text-align: justify;
+  font-size: 1.5em;
+  font-family: "Nerko One", cursive;
+  text-align: justify;
+  grid-column: 2/5;
+  grid-row: 5; }
+
+.foto-dos-inge {
+  grid-column: 1;
+  grid-row: 5; }
+  .foto-dos-inge .foto-dos-ing {
+    width: 80%; }
+
 /*---------------------------- PROGRAMADOR       CSS ----------------------------*/
 /*---------------------------- CONTACTANOS       CSS ----------------------------*/
 /*---------------------------- MENU              CSS ----------------------------*/
@@ -93,7 +219,7 @@ main div {
   .menu-index .color-menu-trans {
     color: #ffffffd7;
     font-family: "Nerko One", cursive;
-    font-size: 1.4em; }
+    font-size: 2em; }
 
 .alitas:hover {
   transform: scale(1.2);
@@ -111,12 +237,16 @@ footer {
 .container {
   background-color: #550b0b;
   color: #ffffffd7;
-  font-family: "Nerko One", cursive;
-  font-size: 1.3em; }
+  font-family: "poppins", sans-serif;
+  font-size: 1em;
+  padding-top: 2em; }
+  .container .centro {
+    font-size: initial;
+    margin: auto; }
 
 .redes .whatsapp, .redes .facebook, .redes .twitter, .redes .instagram, .redes .github {
-  width: 2em;
-  font-size: 2em; }
+  width: 1em;
+  font-size: 2.5em; }
 
 /*---------------------------- INDEX CONTENIDO MEDIA ----------------------------*/
 /*---------------------------- INGENIERO       MEDIA ----------------------------*/

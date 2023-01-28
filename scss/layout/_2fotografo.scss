@@ -1,1 +1,87 @@
 /*---------------------------- FOTOGRAFO         CSS ----------------------------*/
+.menu-fotografo {
+    color: rgb(255, 255, 255);
+    .card-color{
+        background-color: $background-card-fotografo;
+        border-color: rgb(255, 255, 255);
+        margin: 2em;
+    }
+}
+
+.margenes{
+    margin: 3em;
+}
+
+.contenedor_fotos-grid{
+    display: grid;
+    grid-template-columns: 1fr  1fr 1fr;
+    grid-template-rows:  18em 56em 56em 56em 56em;
+    .posicion{
+        font-size: 1.8em;
+        text-align: justify;
+        margin: 2em;
+        font-family: $fuentes-principal;
+        h3 {
+            font-size: 2em;
+        }
+    }
+}
+
+.menu-fotografo{
+    grid-column: 1/3;
+    grid-row: 1;
+}
+
+.carrusel-fotos1{
+    margin: 1em;
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.carrusel-fotos2{
+    margin: 1em;
+    grid-column: 3;
+    grid-row: 3;
+}
+
+.carrusel-fotos3{
+    margin: 1em;
+    grid-column: 1;
+    grid-row: 4;
+ }
+
+ .carrusel-fotos4{
+    margin: 1em;
+    grid-column: 3;
+    grid-row: 5;
+ }
+
+ .texto-foto-1{
+    color: $color-Foto-texto;
+    grid-column: 2/4;
+    grid-row: 2;
+ }
+
+ .texto-foto-2{
+    color: $color-Foto-texto;
+    grid-column: 1/3;
+    grid-row: 3;
+ }
+
+ .texto-foto-3{
+    color: $color-Foto-texto;
+    grid-column: 2/4;
+    grid-row: 4;
+ }
+
+ .texto-foto-4{
+    color: $color-Foto-texto;
+    grid-column: 1/3;
+    grid-row: 5;
+ }
+
+.card-fotografia-grid{
+    grid-column: 1/4;
+    grid-row: 6;
+}
+

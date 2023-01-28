@@ -82,67 +82,310 @@
         </nav>
     </header>
     <!----------------- Contenido ------------->
-    <nav class="menu-fotografo">
-        <div>
-            <h2>   
-                Portofolio como fotografo
-            </h2>
+    
+    <main class="contenedor_fotos-grid">
+        <div class="menu-fotografo">
+            <div class="card card-color">
+                <div class="card-body">
+                    <h2 class="card-title">
+                        Portofolio como fotografo
+                    </h2>
+                    <p class="card-text">
+                        en mi experiencia como fotografo entran los siguientes tipos de fotos:
+                    </p>
+                    <ul>
+                        <a href="#fiesta-para-niños"> 
+                            <li>Fiesta para niños</li>
+                        </a>
+                        <a href="#Fotos-en-la-naturaleza">
+                            <li>Fotos en la naturaleza</li>
+                        </a>
+                        <a href="#Fotos-para-niños">
+                            <li>Fotos para niños</li>
+                        </a>
+                        <a href="#Fotos-casuales">
+                            <li>Fotos casuales</li>
+                        </a>
+                   </ul>
+                </div>
+            </div>
         </div>
-       <div>
-        <ul>
-            <a href="#fiesta para niños"> 
-                <li>Fiesta para niños</li>
-            </a>
-            <a href="#Fotos en la naturaleza">
-                <li>Fotos en la naturaleza</li>
-            </a>
-            <a href="#Fotos para niños">
-                <li>Fotos para niños</li>
-            </a>
-            <a href="#Fotos casuales">
-                <li>Fotos casuales</li>
-            </a>
-       </ul>
-       </div>    
-    </nav>
-    <main class="contenedor_fotos">
-        <div class="foto_uno">
-            <img src="../archivos/5.jpg" alt="Fiesta para niños" loading="lazy"  class="tomaño-foto">
+
+        <div class="carrusel-fotos1" id="fiesta-para-niños">
+            <div id="carousel1" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="../archivos/IMG_0065.jpg" class="d-block w-100" alt="niña muerde torta">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>
+
+                        </h5> 
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                        <img src="../archivos/_DSC0741.jpg" class="d-block w-100" alt="Niña soplando burbujas">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>
+
+                            </h5>
+                        </div>
+                  </div>
+                  <div class="carousel-item">
+                        <img src="../archivos/IMG_3259.jpg" class="d-block w-100" alt="Niña soplando velitas">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>
+
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
-        <div class="foto_dos">
-          <img src="../archivos/2.jpg" alt="Fotos en la naturaleza" loading="lazy"  class="tomaño-foto">
+        <div class="carrusel-fotos2" id="Fotos-en-la-naturaleza">
+            <div id="carousel2" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="../archivos/2.jpg" class="d-block w-100" alt="niña-muerde-torta">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>
+
+                        </h5> 
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                        <img src="../archivos/3.jpg" class="d-block w-100" alt="Niña soplando burbujas">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>
+
+                            </h5>
+                        </div>
+                  </div>
+                  <div class="carousel-item">
+                        <img src="../archivos/5.jpg" class="d-block w-100" alt="Niña soplando velitas">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>
+
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
-        <div class="foto_tres">
-            <img src="../archivos/3.jpg" alt="Fotos para niños" loading="lazy"  class="tomaño-foto">
+        <div class="carrusel-fotos3" id="Fotos-para-niños">
+            <div id="carousel3" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="../archivos/IMG_3835.jpg" class="d-block w-100" alt="niña muerde torta">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>
+
+                        </h5> 
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                        <img src="../archivos/_DSC0148.jpg" class="d-block w-100" alt="Niña soplando burbujas">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>
+
+                            </h5>
+                        </div>
+                  </div>
+                  <div class="carousel-item">
+                        <img src="../archivos/IMG_6213.jpg" class="d-block w-100" alt="Niña soplando velitas">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>
+
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
-        <div class="foto_cuatro">
-            <img src="../archivos/4.jpg" alt="Fotos casuales" loading="lazy"  class="tomaño-foto">
+        <div class="carrusel-fotos4" id="Fotos-casuales">
+            <div id="carousel4" class="carousel carousel-dark slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carousel4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carousel4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="../archivos/DSC_0265.jpg" class="d-block w-100" alt="niña muerde torta">
+                        <div class="carousel-caption d-none d-md-block">
+                        <h5>
+
+                        </h5> 
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                        <img src="../archivos/7.jpg" class="d-block w-100" alt="Niña soplando burbujas">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>
+
+                            </h5>
+                        </div>
+                  </div>
+                  <div class="carousel-item">
+                        <img src="../archivos/DSC_0329.jpg" class="d-block w-100" alt="Niña soplando velitas">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>
+
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
         </div>
-        <div class="foto_cinco">
-            <img src="../archivos/1.jpg" alt="" loading="lazy" class="tomaño-foto">
-        </div>
-        <div class="foto_seis">
-            <img src="../archivos/6.jpg" alt="" loading="lazy"  class="tomaño-foto">
-        </div>
-        <div class="foto_siete">
-            <img src="../archivos/7.jpg" alt="" loading="lazy" class="tomaño-foto">
-        </div>
-        <div class="tex_fotograf">
+        <div class="texto-foto-1 posicion">
+            <h3>
+                Fiesta para niños 
+            </h3>
             <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit quos voluptatem dolorem dolor sit. Asperiores voluptates ad nobis culpa, magnam beatae quam debitis vitae, ipsam facere autem cumque cum! Quisquam mollitia, modi impedit voluptatum at asperiores quas alias repellat deserunt vitae harum suscipit qui sapiente debitis necessitatibus amet, dolor quibusdam et earum quae enim, autem pariatur facere? Omnis ab delectus excepturi harum numquam provident earum assumenda, impedit sint soluta laboriosam hic molestiae ipsa expedita id deserunt corporis ipsam accusantium minima, illum quis maxime ea. Itaque perspiciatis dolor rerum necessitatibus temporibus nihil ratione, placeat, error ex assumenda cumque excepturi magni, in ab? Recusandae doloribus aliquam provident. Ipsum, ipsam dolore enim assumenda iusto aliquam commodi odit! Asperiores repudiandae, officia eveniet illum nihil natus magni, dolor rem blanditiis aliquam quia iste expedita amet mollitia! A, necessitatibus! Molestiae esse quae iusto pariatur voluptatem deserunt at? Ea dolor nihil alias vel doloremque quas excepturi error enim necessitatibus unde nostrum quibusdam, officia corporis maxime pariatur repellendus temporibus illum a. Exercitationem ab quibusdam quisquam ratione officiis, et similique iste aspernatur adipisci maxime culpa accusamus explicabo? Aliquid dolores a debitis sit, quos error facere odio earum. Voluptatum sapiente libero necessitatibus numquam consequatur quasi quod quisquam fugiat ad ratione.
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolores voluptates debitis laboriosam voluptatum, reiciendis blanditiis vero in inventore similique aliquam tempora facere repellat dolor optio expedita ex molestias adipisci esse modi sed, cum sapiente! Possimus voluptas temporibus debitis aliquam blanditiis enim nulla illum alias hic praesentium adipisci repellendus quibusdam expedita dolore perspiciatis, exercitationem quaerat voluptatibus aliquid? In suscipit maiores dignissimos, debitis laboriosam ipsa odit dolore temporibus quaerat nesciunt, dicta consequuntur? Tempora, eveniet explicabo nulla accusantium quisquam iste maxime laborum inventore esse. Non, illum sunt magnam autem delectus ipsam aut porro facere quis suscipit, aliquid fugit. Praesentium dicta consequatur dolor pariatur labore architecto sequi deleniti reprehenderit, expedita accusamus illum eos. Fugit id, debitis libero pariatur deleniti odio expedita dignissimos error corporis ad laudantium molestiae nisi neque molestias quam quisquam, sit voluptatem totam. Necessitatibus reprehenderit hic sint facere nobis! Omnis pariatur illo, vero aliquam nihil iusto ratione laboriosam et quam praesentium nostrum?
             </p>
+        </div>
+        <div class="texto-foto-2 posicion">
+            <h3>
+                Fotos en la naturaleza 
+            </h3>
+            <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit, recusandae minus ab, beatae praesentium necessitatibus hic optio exercitationem sed inventore voluptates perspiciatis cum qui rem enim ratione maxime obcaecati eligendi nulla ex. Sunt minus aliquam quia provident architecto repellendus fugit aut quidem, illum laboriosam illo nostrum asperiores iure ad a. Quasi, eaque! Ullam libero, saepe magnam quae amet laboriosam esse ducimus mollitia blanditiis rerum! Explicabo minus eius officia atque dolore, saepe nisi unde maxime exercitationem pariatur quas ex deleniti sit esse incidunt, nam reiciendis quis culpa sint, recusandae fugiat sequi ipsa! Quo maxime nulla maiores, nisi quidem aut enim consectetur commodi ex provident earum tempora libero labore eum officia illo inventore! Quaerat est, laborum libero omnis numquam nihil dicta repellat eius asperiores nostrum ratione, autem doloribus itaque beatae excepturi quam, odio id. Exercitationem sint pariatur nam unde accusantium at nostrum, consectetur dolore accusamus maxime temporibus tempora, reiciendis quis neque enim.
+            </p>
+        </div>
+        <div class="texto-foto-3 posicion">
+            <h3>
+                Fotos para niños  
+            </h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam nesciunt reprehenderit accusamus alias pariatur adipisci sit, ducimus repellendus unde rem, molestiae exercitationem! Officiis velit ea aliquam nihil cupiditate fugit deserunt enim architecto consequuntur consectetur in aspernatur dolorum accusamus, numquam molestiae mollitia molestias. Temporibus facere, tempore numquam molestiae nihil quos beatae qui hic accusantium possimus aspernatur id maiores, asperiores esse dolore cumque maxime, commodi quo culpa. Dolore iusto distinctio voluptatem eaque beatae modi repellendus, quia enim officiis eum aliquid quis quos cum. Assumenda repellat aut distinctio modi, vel unde animi error facilis architecto corporis cum perspiciatis enim minus? Accusamus doloribus modi et maxime distinctio voluptates dicta saepe deserunt aliquid tempore sed, placeat ex! Est possimus laborum nemo sit harum, hic nesciunt vero a quos ullam? Libero voluptatum cumque beatae accusamus? Accusamus possimus illum similique vitae tenetur, omnis debitis repudiandae exercitationem aliquid ullam perspiciatis. Quibusdam labore laboriosam atque fugiat. Quis, non quam?
+            </p>
+        </div>
+        <div class="texto-foto-4 posicion">
+            <h3>
+                Fotos casuales 
+            </h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad dolorum est eligendi architecto quam, iusto, voluptatum corporis ab incidunt suscipit neque vero beatae eum sunt. Modi, voluptate vitae, temporibus porro deleniti nemo perspiciatis aspernatur at laborum quam nisi suscipit, quibusdam sed! Aperiam illo quae ea dolorum nesciunt saepe laudantium molestias? Minus at illo consequuntur eos quo voluptatum voluptatem veniam tempora. Quam, reiciendis animi asperiores voluptate numquam quaerat porro distinctio nemo ratione facere excepturi ducimus quia voluptatem ex dolore consectetur quisquam expedita et labore, ad officiis! Veniam ut nostrum deleniti magni modi consequuntur inventore, eum vitae, voluptates deserunt, est animi ab debitis incidunt voluptate. Ab, commodi minima tenetur nihil in vel praesentium autem sunt ad nisi enim sed ipsa a. Quis ducimus ad distinctio impedit laboriosam vel sed animi maxime vero eum enim minus, harum nam deserunt sit! Excepturi tempora, quibusdam quidem modi ad ipsa temporibus quis ipsum aspernatur similique mollitia.
+            </p>
+        </div>
+        
+
+        <div class="card-fotografia-grid margenes">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../archivos/IMG_3693.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../archivos/IMG_8836.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a short card.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../archivos/1.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../archivos/4.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../archivos/DSC_0306.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="../archivos/IMG_2570.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Card title</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <footer>
         <div class="container">
-            <div class="py-5">
+            <div>
                 <div class="row">
                     <div class="col mb-3">
                         <a href="./index.html">
                             <img src="../archivos/pngwing.com.png" alt="alitas" loading="lazy" width="100" height="70" class="alitas">
                         </a>
                         <p class="text-muted" _msthash="769574" _msttexthash="39845">
-                            ----------------
+                            
                         </p>
                     </div>
                     <div class="col-6 col-md-2 mb-3">
